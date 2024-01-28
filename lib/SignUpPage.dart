@@ -170,10 +170,10 @@ class SignUpPage extends StatelessWidget {
                       case "Student":
                         Get.offAll(()=>StudentHome());
                         break;
-                      case "Doctor":
+                      case "Faculty Member":
                         Get.offAll(()=>DoctorHome());
                         break;
-                      case "Manager":
+                      case "Department manager":
                         Get.offAll(()=>ManagerHome());
                     }
                   }
